@@ -15,12 +15,12 @@
 		1017CFE2281912E4004B0E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1017CFE0281912E4004B0E91 /* LaunchScreen.storyboard */; };
 		1017CFE5281912E4004B0E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1017CFE4281912E4004B0E91 /* main.m */; };
 		1017D02128191579004B0E91 /* kernel_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = 1017D00C28191579004B0E91 /* kernel_rw.c */; };
-		1017D02228191579004B0E91 /* exploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 1017D00F28191579004B0E91 /* exploit.c */; };
+		1017D02228191579004B0E91 /* exploit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1017D00F28191579004B0E91 /* exploit.m */; };
 		1017D02328191579004B0E91 /* kernel_base.c in Sources */ = {isa = PBXBuildFile; fileRef = 1017D01228191579004B0E91 /* kernel_base.c */; };
 		1017D02428191579004B0E91 /* IOSurfaceRoot.c in Sources */ = {isa = PBXBuildFile; fileRef = 1017D01328191579004B0E91 /* IOSurfaceRoot.c */; };
 		1017D02528191579004B0E91 /* port_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 1017D01528191579004B0E91 /* port_utils.c */; };
 		1017D02628191579004B0E91 /* necp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1017D01728191579004B0E91 /* necp.c */; };
-		1017D02728191579004B0E91 /* IOGPU.c in Sources */ = {isa = PBXBuildFile; fileRef = 1017D01C28191579004B0E91 /* IOGPU.c */; };
+		1017D02728191579004B0E91 /* IOGPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 1017D01C28191579004B0E91 /* IOGPU.m */; };
 		1017D02928191579004B0E91 /* spray.c in Sources */ = {isa = PBXBuildFile; fileRef = 1017D01E28191579004B0E91 /* spray.c */; };
 		1017D02A28191579004B0E91 /* mcast.c in Sources */ = {isa = PBXBuildFile; fileRef = 1017D02028191579004B0E91 /* mcast.c */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,7 @@
 		1017D00C28191579004B0E91 /* kernel_rw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kernel_rw.c; path = exploit/kernel_rw.c; sourceTree = "<group>"; };
 		1017D00D28191579004B0E91 /* iokit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iokit.h; path = exploit/iokit.h; sourceTree = "<group>"; };
 		1017D00E28191579004B0E91 /* kernel_rw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kernel_rw.h; path = exploit/kernel_rw.h; sourceTree = "<group>"; };
-		1017D00F28191579004B0E91 /* exploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = exploit.c; path = exploit/exploit.c; sourceTree = "<group>"; };
+		1017D00F28191579004B0E91 /* exploit.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = exploit.m; path = exploit/exploit.m; sourceTree = "<group>"; };
 		1017D01028191579004B0E91 /* necp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = necp.h; path = exploit/necp.h; sourceTree = "<group>"; };
 		1017D01128191579004B0E91 /* xpaci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xpaci.h; path = exploit/xpaci.h; sourceTree = "<group>"; };
 		1017D01228191579004B0E91 /* kernel_base.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kernel_base.c; path = exploit/kernel_base.c; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		1017D01928191579004B0E91 /* mcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mcast.h; path = exploit/mcast.h; sourceTree = "<group>"; };
 		1017D01A28191579004B0E91 /* port_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = port_utils.h; path = exploit/port_utils.h; sourceTree = "<group>"; };
 		1017D01B28191579004B0E91 /* spray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spray.h; path = exploit/spray.h; sourceTree = "<group>"; };
-		1017D01C28191579004B0E91 /* IOGPU.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = IOGPU.c; path = exploit/IOGPU.c; sourceTree = "<group>"; };
+		1017D01C28191579004B0E91 /* IOGPU.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = IOGPU.m; path = exploit/IOGPU.m; sourceTree = "<group>"; };
 		1017D01E28191579004B0E91 /* spray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spray.c; path = exploit/spray.c; sourceTree = "<group>"; };
 		1017D01F28191579004B0E91 /* IOSurfaceRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSurfaceRoot.h; path = exploit/IOSurfaceRoot.h; sourceTree = "<group>"; };
 		1017D02028191579004B0E91 /* mcast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mcast.c; path = exploit/mcast.c; sourceTree = "<group>"; };
@@ -101,9 +101,9 @@
 				1017CFE0281912E4004B0E91 /* LaunchScreen.storyboard */,
 				1017CFE3281912E4004B0E91 /* Info.plist */,
 				1017CFE4281912E4004B0E91 /* main.m */,
-				1017D00F28191579004B0E91 /* exploit.c */,
+				1017D00F28191579004B0E91 /* exploit.m */,
 				1017D01628191579004B0E91 /* exploit.h */,
-				1017D01C28191579004B0E91 /* IOGPU.c */,
+				1017D01C28191579004B0E91 /* IOGPU.m */,
 				1017D01828191579004B0E91 /* IOGPU.h */,
 				1017D00D28191579004B0E91 /* iokit.h */,
 				1017D01328191579004B0E91 /* IOSurfaceRoot.c */,
@@ -198,11 +198,11 @@
 				1017CFDA281912E3004B0E91 /* ViewController.m in Sources */,
 				1017D02A28191579004B0E91 /* mcast.c in Sources */,
 				1017D02328191579004B0E91 /* kernel_base.c in Sources */,
-				1017D02228191579004B0E91 /* exploit.c in Sources */,
+				1017D02228191579004B0E91 /* exploit.m in Sources */,
 				1017D02928191579004B0E91 /* spray.c in Sources */,
 				1017CFD4281912E3004B0E91 /* AppDelegate.m in Sources */,
 				1017D02128191579004B0E91 /* kernel_rw.c in Sources */,
-				1017D02728191579004B0E91 /* IOGPU.c in Sources */,
+				1017D02728191579004B0E91 /* IOGPU.m in Sources */,
 				1017D02628191579004B0E91 /* necp.c in Sources */,
 				1017D02428191579004B0E91 /* IOSurfaceRoot.c in Sources */,
 				1017CFE5281912E4004B0E91 /* main.m in Sources */,
@@ -348,15 +348,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = multicast_bytecopy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -369,6 +370,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "organization.multicast-bytecopy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,15 +381,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = multicast_bytecopy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -400,6 +403,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "organization.multicast-bytecopy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
