@@ -8,5 +8,5 @@
 #import <Foundation/Foundation.h>
 
 void LOG(NSString *log) {
-    [[NSNotificationCenter defaultCenter] postNotificationName: @"done" object:nil userInfo:@{@"info": log}];
+    [[NSNotificationCenter defaultCenter] postNotificationName: @"updateLog" object:nil userInfo:@{@"logs": log}];
 }
