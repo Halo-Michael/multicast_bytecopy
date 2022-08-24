@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04FD2A8028B5CA1500117F88 /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD2A7F28B5CA1500117F88 /* utils.m */; };
 		1017CFD4281912E3004B0E91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1017CFD3281912E3004B0E91 /* AppDelegate.m */; };
 		1017CFD7281912E3004B0E91 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1017CFD6281912E3004B0E91 /* SceneDelegate.m */; };
 		1017CFDA281912E3004B0E91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1017CFD9281912E3004B0E91 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04FD2A7F28B5CA1500117F88 /* utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = utils.m; sourceTree = "<group>"; };
+		04FD2A8128B5CA2D00117F88 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		1017CFCF281912E3004B0E91 /* multicast_bytecopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multicast_bytecopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1017CFD2281912E3004B0E91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1017CFD3281912E3004B0E91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 		1017CFD1281912E3004B0E91 /* multicast_bytecopy */ = {
 			isa = PBXGroup;
 			children = (
+				04FD2A8128B5CA2D00117F88 /* utils.h */,
+				04FD2A7F28B5CA1500117F88 /* utils.m */,
 				1017CFD2281912E3004B0E91 /* AppDelegate.h */,
 				1017CFD3281912E3004B0E91 /* AppDelegate.m */,
 				1017CFD5281912E3004B0E91 /* SceneDelegate.h */,
@@ -198,6 +203,7 @@
 				1017CFDA281912E3004B0E91 /* ViewController.m in Sources */,
 				1017D02A28191579004B0E91 /* mcast.c in Sources */,
 				1017D02328191579004B0E91 /* kernel_base.c in Sources */,
+				04FD2A8028B5CA1500117F88 /* utils.m in Sources */,
 				1017D02228191579004B0E91 /* exploit.m in Sources */,
 				1017D02928191579004B0E91 /* spray.c in Sources */,
 				1017CFD4281912E3004B0E91 /* AppDelegate.m in Sources */,
